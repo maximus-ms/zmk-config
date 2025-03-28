@@ -1,0 +1,30 @@
+# Build artifacts
+build/
+*.uf2
+*.bin
+*.hex
+*.elf
+*.map
+
+# Zephyr build directory
+zephyr/
+
+# ZMK build directory
+zmk/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+artifacts/
